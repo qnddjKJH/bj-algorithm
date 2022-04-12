@@ -1,14 +1,14 @@
-import java.io.IOException;
-
-import questions.ChessDraw;
-import questions.SelfNumber;
+import questions.StackSequence;
 
 /**
  * Test
+ * 
+ * 실행해보는 곳입니다.
  */
 public class Main {
-    public static void main(String[] args) throws IOException {
-        SelfNumber sn = new SelfNumber();
-        sn.doSelfNumber();
-    }
+    public static void main(String[] args) throws Exception {
+       StackSequence ss = new StackSequence();
+       
+       ss.answer();
+    }  
 }
