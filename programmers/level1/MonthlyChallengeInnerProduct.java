@@ -1,11 +1,18 @@
 package programmers.level1;
 
+import java.util.stream.IntStream;
+
 /**
  *  월간 코드 챌린지 시즌1
  *
  *  내적 (Inner Product)
  */
 public class MonthlyChallengeInnerProduct {
+
+    private static int streamSolution(int[] a, int[] b) {
+        return IntStream.range(0, a.length).map(i -> a[i] * b[i]).sum();
+    }
+
     private static int solution(int[] a, int[] b) {
         int answer = 0;
 
