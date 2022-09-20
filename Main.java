@@ -1,4 +1,4 @@
-import questions.StackSequence;
+import src.baekjoon.questions.StackSequence;
 
 /**
  * Test
